@@ -8,7 +8,7 @@ phases:
       - ./deploy.sh -i
   pre_build:
     commands:
-      - echo pre-build2
+      - echo pre-build3
   build:
     commands:
       - ./deploy.sh -b

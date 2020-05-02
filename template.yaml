@@ -57,7 +57,7 @@ Resources:
       Role: !GetAtt MyLambdaRole.Arn
       Environment:
          Variables:
-          MY_NAME : mauri
+          MY_NAME: Cami
       Events:
         GetUsers:
           Type: Api
